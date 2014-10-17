@@ -1,0 +1,3 @@
+str=`echo "$1" | sed "s/'//g" | sed "s/}/\"/g" | sed "s/{/-H \"/g" | sed "s/, /\"\ -H \"/g"`
+
+echo "$str -v http://127.0.0.1:8082 -T"

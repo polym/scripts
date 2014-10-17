@@ -1,0 +1,2 @@
+#!/bin/sh
+curl -v -H "x-gmkerl-type: get_meta" -H "x-gmkerl-meta: J_EXIF, ICC" http://127.0.0.1:8082 -T $1
